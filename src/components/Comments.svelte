@@ -81,7 +81,4 @@
     outline: none;
     cursor: pointer;
   }
-  label {
-    display: none;
-  }
 </style>
