@@ -1,0 +1,27 @@
+{
+  "author": "Patricio Anabalón",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "svelte": "^3.35.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "svelte-loader": "^3.0.0",
+    "webpack": "^5.26.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "name": "svelte-pugstagram",
+  "version": "1.0.0",
+  "main": "index.js"
+}
